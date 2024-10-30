@@ -1,0 +1,14 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+ #adminmenu a[href="options-general.php?page=charla-live-chat-settings"]::after{  
+    display: inline-block;
+    content: ' ';
+    background-image: url(../img/logo.svg);
+    background-size: 16px 16px;
+    height: 16px;
+    width: 16px;
+    margin: 0px 5px;
+ }
